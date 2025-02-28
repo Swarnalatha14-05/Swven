@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  header nav a:hover {
+    color: #ff6b6b;
+  }
+  
+  #hero {
+    min-height: 400px;
+    background: linear-gradient(to bottom, #f8d7da, #fff3cd);
+  }
+  
+  #hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hero .lead {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  #categories {
+    padding: 4rem 0;
+  }
+  
+  #categories h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .category-btn {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category-btn:hover {
+    background-color: #ff6b6b !important;
+    color: white !important;
+  }
+  
+  #recipes {
+    padding: 4rem 0;
+  }
+  
+  .recipe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem 0;
+  }
+  
+  footer a {
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #ff6b6b;
+  }
+  
+  .modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5rem;
+    }
+  
+    #hero h2 {
+      font-size: 2rem;
+    }
+  
+    #categories h2 {
+      font-size: 1.8rem;
+    }
+  }
